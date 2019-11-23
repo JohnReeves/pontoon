@@ -4,6 +4,10 @@ import time
 # generate a pack of cards in memory
 # we don't need to see the cards until we play the game
 # each card is a unique key 1..52 and value e.g. (twoC, 2)
+
+# first iteration to get the card dictionary working,
+# the scores are most likely wrong
+
 cards=["ace","two","three","four","five","six",\
        "seven","eight","nine","ten","j","q","k"]
 suites = ["C", "D", "H", "S"]
